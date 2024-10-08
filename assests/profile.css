@@ -1,0 +1,168 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  ax-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* my css */
+body {
+  background-color: #28223f;
+  color: white;
+}
+
+span {
+  background-color: #febb0b;
+  color: black;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 2rem;
+  left: 1.5em;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid #febb0b;
+  border-radius: 0.3rem;
+}
+
+img {
+  width: 10rem;
+  margin: auto;
+  border-radius: 50%;
+  border: 0.2rem solid #03bfcb;
+  margin-top: 3rem;
+}
+section {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  box-shadow: 0px 10px 20px -10px #3717c7;
+}
+.personal-information {
+  background-color: #231e39;
+}
+
+.personal-information .name {
+  text-align: center;
+}
+
+.personal-information .job {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.social  {
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+.social i {
+    margin: 1rem 0.5rem;
+}
+
+a {
+    color: inherit;
+}
+
+.fa-brands .fa-linkedin :hover {
+    color: #0A66C2; 
+}
+
+.fa-github :hover {
+    color: #0000;
+}
+
+
+.personal-information button {
+  border: 1px solid #03bfcb;
+  padding: 0.6rem 1.1rem;
+  text-align: center;
+}
+
+.personal-information .primary {
+  background-color: #03bfcb;
+  margin-inline-end: 0.4rem;
+}
+
+.personal-information .secondary {
+  background-color: transparent;
+  color: #03bfcb;
+  margin-inline-start: 0.4rem;
+}
+
+.personal-information button :hover {
+  cursor: pointer;
+}
+
+.personal-information .buttons {
+  text-align: center;
+  margin: 1rem;
+}
+
+.skill h3 {
+  margin-block-end: 0, 4rem;
+}
+
+.skills ul {
+  text-align: left;
+}
+.skill ul li {
+  display: inline-block;
+  border: 0.2rem solid #272727;
+  padding: 0.4rem;
+  margin: 0.1rem 0.5rem;
+}
+
+.skill {
+  background-color: #1f1a36;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
